@@ -22,7 +22,7 @@ import autoTable from "jspdf-autotable";
 
 const giorniSettimana = ["Domenica", "Lunedì", "Martedì", "Mercoledì", "Giovedì", "Venerdì", "Sabato"];
 
-const festivitaItaliane = ["1-01", "6--01", "25-04", "1-05", "2-06", "15-08", "1-11", "8-12", "25-12", "26-12"];
+const festivitaItaliane = ["1-01", "6-01", "25-04", "1-05", "2-06", "15-08", "1-11", "8-12", "25-12", "26-12"];
 
 const GeneratePdf = () => {
     const nome = JSON.parse(Cookies.get("formData.dati") || '""');
