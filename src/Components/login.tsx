@@ -48,7 +48,7 @@ const Login = () => {
             return;
         }
          Cookies.set("month", formData.mese);
-        Cookies.set("formData.dati", JSON.stringify(formData.nome + "" + formData.cognome ), { path: '/', expires: 1 });
+        Cookies.set("formData.dati", JSON.stringify(formData.nome + " " + formData.cognome ), { path: '/', expires: 1 });
         Cookies.set("formData.email", formData.email);
         Cookies.set("isGenerate", JSON.stringify(true), { path: '/', expires: 1 });
         setSnackbarMessage("Welcome " + formData.nome + " !");
