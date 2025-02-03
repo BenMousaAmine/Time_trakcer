@@ -6,6 +6,9 @@
     { "path": "./tsconfig.node.json" }
   ],
   "compilerOptions": {
-    "jsx": "react"
-  }
+    "skipLibCheck": true,
+    "strict": false,
+    "noEmit": true
+  },
+
 }
